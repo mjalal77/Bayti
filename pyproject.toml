@@ -1,0 +1,12 @@
+[project]
+name = "bayti"
+version = "0.1.0"
+description = "Bayti home financing: Ijara (lease-to-own) workflow with document management"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["bayti*"]
+
+[tool.setuptools.package-data]
+"bayti.ijara" = ["templates/*.tmpl"]
